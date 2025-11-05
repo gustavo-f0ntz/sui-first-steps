@@ -253,10 +253,43 @@ cargo install --locked --git https://github.com/mystenlabs/mvr --branch release 
 mvr --version
 ```
 
-## 5. Interagindo com o repositório.
+## 5. Material Básico para Iniciantes
+
+Para facilitar o aprendizado, criamos materiais básicos adicionais:
+
+📚 **[MATERIAL_BASICO.md](./MATERIAL_BASICO.md)** - Guia completo para primeiros contatos
+- Conceitos fundamentais de Move
+- Estrutura de módulos
+- Variáveis e tipos de dados
+- Referências (conceito fundamental)
+- Exercícios práticos
+
+📖 **Materiais Extras** (pasta `materiais_extras/`):
+- **[EXEMPLOS_PRATICOS.md](./materiais_extras/EXEMPLOS_PRATICOS.md)** - Exemplos reais de uso
+- **[EXERCICIOS.md](./materiais_extras/EXERCICIOS.md)** - Exercícios progressivos
+- **[ERROS_COMUNS.md](./materiais_extras/ERROS_COMUNS.md)** - Erros comuns e soluções
+
+🎯 **Recomendação**: Comece pelo `MATERIAL_BASICO.md` antes de ir para os tutoriais específicos!
+
+## 6. Interagindo com o repositório
 
 O repositório é composto por várias pastas com arquivos para cada tutorial, simplesmente navegue até elas usando `cd` e siga as instruções dentro delas.</br></br>
 Cada tutorial possui um arquivo `README.md` com instruções claras de como interagir com eles.
+
+### Ordem Recomendada de Estudo:
+
+1. **[Material Básico](./MATERIAL_BASICO.md)** - Conceitos fundamentais
+2. **[00_intro](./backend/00_intro/)** - Primeiro módulo Move
+3. **[01_variables](./backend/01_variables/)** - Variáveis e constantes
+4. **[02_referencias](./backend/02_referencias/)** - Referências (&, &mut)
+5. **[03_tipos_primitivos](./backend/03_tipos_primitivos/)** - Tipos de dados
+6. **[04_condicionais](./backend/04_condicionais/)** - if/else
+7. **[05_vetores](./backend/05_vetores/)** - Arrays e listas
+8. **[06_strings](./backend/06_strings/)** - Manipulação de texto
+9. **[07_structs](./backend/07_structs/)** - Estruturas de dados
+10. **[08_habilidades](./backend/08_habilidades/)** - Abilities
+11. **[09_address](./backend/09_address/)** - Endereços
+12. **[10_funcoes](./backend/10_funcoes/)** - Funções avançadas
 
 ## Créditos
 
